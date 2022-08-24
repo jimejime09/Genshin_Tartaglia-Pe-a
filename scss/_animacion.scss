@@ -1,0 +1,17 @@
+div .imgBox{
+    animation: texto 3s ease  1 ;
+    width: 100px;
+    height: 100px;
+    position: absolute
+
+}
+
+@keyframes texto {
+from{
+    transform: translateX(1000px);
+}
+
+to{
+    transform: translateX(0);
+}
+}
